@@ -14,8 +14,8 @@ echo "                        Author: @karthi_the_hacker                        
 echo ""
 echo ""
 
-echo "use these commands after completing this tool"
+echo "Some useful commands for recon"
 echo " use grep -Hrni uri= * | nano - "
 echo "grep -Hrni any paramater= * | nano -"
-echo ""
+echo "         JAIHIND"
 
