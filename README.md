@@ -1,6 +1,7 @@
 # R3C0NH4CK3R
 The automated recon tool 
 
+Easy steps to install:
 
 $git clone https://github.com/karthi-the-hacker/R3C0NH4CK3R.git
 
