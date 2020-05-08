@@ -9,7 +9,7 @@ $cd R3C0NH4CK3R
 
 $chmod 777 *.sh
 
-$chomd 777
+$chomd 777 .banner.sh
 
 $./install.sh
 
