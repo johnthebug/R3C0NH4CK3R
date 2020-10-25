@@ -80,11 +80,11 @@ cd
 echo ""
 printf "$yellow"  "removing duplicates"
 cd ~/recon/$cm/
-cat *.txt | sort -u > ~/recon/$cm/devnull.txt
-cat devnull.txt | wc -l
+cat *.txt | sort -u > ~/recon/$cm/reconhacker.txt
+cat reconhacker.txt | wc -l
 ##################################################################
 # finding live domains
 printf "$green"   "Scanning for live domaind"
-cat devnull.txt | httprobe -c 50 -t 3000 -p 443 | tee -a ~/recon/$cm/live.txt
+cat reconhacker.txt | httprobe -c 50 -t 3000 -p 443 | tee -a ~/recon/$cm/live.txt
 cat live.txt | wc -l
 ##################################################################
