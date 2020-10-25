@@ -80,7 +80,7 @@ go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/gf
 echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
 cp -r $GOPATH/src/github.com/tomnomnom/gf/examples ~/.gf
-
+mkdir sources
 cd sources
 git clone https://github.com/maurosoria/dirsearch.git
 git clone https://github.com/Edu4rdSHL/findomain.git
