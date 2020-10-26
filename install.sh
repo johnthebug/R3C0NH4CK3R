@@ -90,12 +90,14 @@ git clone https://github.com/gwen001/github-search.git
 git clone https://github.com/TheRook/subbrute.git
 git clone https://github.com/maurosoria/dirsearch.git
 git clone https://github.com/karthi-the-hacker/P4R4M-HUNT3R.git
+git clone https://github.com/infosec-au/altdns.git
 
 
 sudo cp ~/tools/R3C0NH4CK3R/sources/subfinder/cmd/subfinder/subfinder /usr/local/bin/
-
+sudo pip install -r ~/tools/R3C0NH4CK3R/sources/altdns/requirements.txt
+sudo pip3 install -r ~/tools/R3C0NH4CK3R/sources/altdns/requirements.txt
 sudo pip install -r ~/tools/R3C0NH4CK3R/sources/Sublist3r/requirements.txt
-
+sudo pip install py-altdns
 sudo pip install -r ~/tools/R3C0NH4CK3R/sources/github-search/requirements.txt
 sudo pip install -r ~/tools/R3C0NH4CK3R/sources/github-search/requirements2.txt
 sudo pip install -r ~/tools/R3C0NH4CK3R/sources/github-search/requirements3.txt
@@ -112,7 +114,10 @@ cd findomain
 cargo build --release
 sudo cp target/release/findomain /usr/bin/
 cd ../
-
+cd altdns
+sudo python setup.py build
+sudo python setup.py install
+cd ../
 cd P4R4M-HUNT3R/
 unzip P4R4M-HUNT3R.zip
 rm P4R4M-HUNT3R.zip
